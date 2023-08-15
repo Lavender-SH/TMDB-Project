@@ -20,6 +20,7 @@
 		023C0B802A8B3AF0002E548C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 023C0B7F2A8B3AF0002E548C /* .gitignore */; };
 		023C0B822A8B3BE4002E548C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B812A8B3BE4002E548C /* APIKey.swift */; };
 		023C0B842A8BBBE7002E548C /* MovieID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B832A8BBBE7002E548C /* MovieID.swift */; };
+		023C0B862A8BD9B7002E548C /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B852A8BD9B7002E548C /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		023C0B7F2A8B3AF0002E548C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		023C0B812A8B3BE4002E548C /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		023C0B832A8BBBE7002E548C /* MovieID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieID.swift; sourceTree = "<group>"; };
+		023C0B852A8BD9B7002E548C /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				023C0B5F2A892E72002E548C /* AppDelegate.swift */,
 				023C0B612A892E72002E548C /* SceneDelegate.swift */,
 				023C0B632A892E72002E548C /* ViewController.swift */,
+				023C0B852A8BD9B7002E548C /* MovieDetailViewController.swift */,
 				023C0B7D2A8B3610002E548C /* NetworkManager.swift */,
 				023C0B812A8B3BE4002E548C /* APIKey.swift */,
 				023C0B7F2A8B3AF0002E548C /* .gitignore */,
@@ -170,6 +173,7 @@
 				023C0B762A8B31C3002E548C /* Movie.swift in Sources */,
 				023C0B7E2A8B3610002E548C /* NetworkManager.swift in Sources */,
 				023C0B602A892E72002E548C /* AppDelegate.swift in Sources */,
+				023C0B862A8BD9B7002E548C /* MovieDetailViewController.swift in Sources */,
 				023C0B842A8BBBE7002E548C /* MovieID.swift in Sources */,
 				023C0B822A8B3BE4002E548C /* APIKey.swift in Sources */,
 				023C0B622A892E72002E548C /* SceneDelegate.swift in Sources */,
