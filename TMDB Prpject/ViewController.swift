@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import Alamofire
+import Kingfisher
 
 class ViewController: UIViewController {
-
+    
+    var movieList: [Movie] = []
+    
+    var networkManager = NetworkManager.shared
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        networkManager.CreditAPICallRequest(movieID: 45732) { data in
+            print(data)
+        }
+        
     }
-
+    
+    
 
 }
-

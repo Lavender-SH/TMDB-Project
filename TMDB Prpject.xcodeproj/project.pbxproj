@@ -13,6 +13,13 @@
 		023C0B672A892E72002E548C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023C0B652A892E72002E548C /* Main.storyboard */; };
 		023C0B692A892E73002E548C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023C0B682A892E73002E548C /* Assets.xcassets */; };
 		023C0B6C2A892E73002E548C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023C0B6A2A892E73002E548C /* LaunchScreen.storyboard */; };
+		023C0B762A8B31C3002E548C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B752A8B31C3002E548C /* Movie.swift */; };
+		023C0B792A8B3286002E548C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 023C0B782A8B3286002E548C /* Alamofire */; };
+		023C0B7C2A8B328F002E548C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 023C0B7B2A8B328F002E548C /* Kingfisher */; };
+		023C0B7E2A8B3610002E548C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B7D2A8B3610002E548C /* NetworkManager.swift */; };
+		023C0B802A8B3AF0002E548C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 023C0B7F2A8B3AF0002E548C /* .gitignore */; };
+		023C0B822A8B3BE4002E548C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B812A8B3BE4002E548C /* APIKey.swift */; };
+		023C0B842A8BBBE7002E548C /* MovieID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0B832A8BBBE7002E548C /* MovieID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,11 @@
 		023C0B682A892E73002E548C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023C0B6B2A892E73002E548C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023C0B6D2A892E73002E548C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023C0B752A8B31C3002E548C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		023C0B7D2A8B3610002E548C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		023C0B7F2A8B3AF0002E548C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		023C0B812A8B3BE4002E548C /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		023C0B832A8BBBE7002E548C /* MovieID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023C0B7C2A8B328F002E548C /* Kingfisher in Frameworks */,
+				023C0B792A8B3286002E548C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,11 @@
 				023C0B5F2A892E72002E548C /* AppDelegate.swift */,
 				023C0B612A892E72002E548C /* SceneDelegate.swift */,
 				023C0B632A892E72002E548C /* ViewController.swift */,
+				023C0B7D2A8B3610002E548C /* NetworkManager.swift */,
+				023C0B812A8B3BE4002E548C /* APIKey.swift */,
+				023C0B7F2A8B3AF0002E548C /* .gitignore */,
+				023C0B752A8B31C3002E548C /* Movie.swift */,
+				023C0B832A8BBBE7002E548C /* MovieID.swift */,
 				023C0B652A892E72002E548C /* Main.storyboard */,
 				023C0B682A892E73002E548C /* Assets.xcassets */,
 				023C0B6A2A892E73002E548C /* LaunchScreen.storyboard */,
@@ -83,6 +102,10 @@
 			dependencies = (
 			);
 			name = "TMDB Prpject";
+			packageProductDependencies = (
+				023C0B782A8B3286002E548C /* Alamofire */,
+				023C0B7B2A8B328F002E548C /* Kingfisher */,
+			);
 			productName = "TMDB Prpject";
 			productReference = 023C0B5C2A892E72002E548C /* TMDB Prpject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,10 @@
 				Base,
 			);
 			mainGroup = 023C0B532A892E72002E548C;
+			packageReferences = (
+				023C0B772A8B3286002E548C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				023C0B7A2A8B328F002E548C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 023C0B5D2A892E72002E548C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023C0B802A8B3AF0002E548C /* .gitignore in Resources */,
 				023C0B6C2A892E73002E548C /* LaunchScreen.storyboard in Resources */,
 				023C0B692A892E73002E548C /* Assets.xcassets in Resources */,
 				023C0B672A892E72002E548C /* Main.storyboard in Resources */,
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				023C0B642A892E72002E548C /* ViewController.swift in Sources */,
+				023C0B762A8B31C3002E548C /* Movie.swift in Sources */,
+				023C0B7E2A8B3610002E548C /* NetworkManager.swift in Sources */,
 				023C0B602A892E72002E548C /* AppDelegate.swift in Sources */,
+				023C0B842A8BBBE7002E548C /* MovieID.swift in Sources */,
+				023C0B822A8B3BE4002E548C /* APIKey.swift in Sources */,
 				023C0B622A892E72002E548C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +327,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +335,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lavender.sesac.TMDB-Prpject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +359,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +367,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lavender.sesac.TMDB-Prpject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +398,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		023C0B772A8B3286002E548C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		023C0B7A2A8B328F002E548C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		023C0B782A8B3286002E548C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 023C0B772A8B3286002E548C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		023C0B7B2A8B328F002E548C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 023C0B7A2A8B328F002E548C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 023C0B542A892E72002E548C /* Project object */;
 }
